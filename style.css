@@ -1,0 +1,120 @@
+:root{
+    --primary-color:#651FFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 56px;
+}
+h2{
+    font-weight: bold;
+    font-size: 56px;
+}
+p{
+    color: #838696;
+}
+.my-primary{
+    color: var(--primary-color);
+}
+.my-btn{
+    padding: 10px 30px;
+    background-color:var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.banner,
+.hero-image,
+.lightning,
+.team,
+.Decentral,
+.Fair{
+    padding: 100px 0px;
+}
+.banner{
+   
+    background-color: #EBE5FA;
+}
+.lightning-wrapper > div > div > div{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 50px;
+    border-radius: 30px;
+
+}
+.lightning-wrapper>div>div>div span{
+    color: #fff;
+    text-decoration: none;
+}
+.lightning-wrapper>div>div>div p{
+    color: #ECECFE;
+}
+.team-wrapper > div > div > div {
+    padding: 50px;
+    border-radius: 20px;
+}
+.team-wrapper > div >div:nth-child(1) > div{
+    background-color: #FFF7ED;
+   
+}
+.team-wrapper>div>div:nth-child(2)>div 
+{
+    background-color:#E0F7FA;
+        
+}
+.my-start{
+    padding: 10px 35px;
+    color: #fff;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.my-more{
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 10px;
+        border: 3px solid #0E0F10;
+        color: #120101;
+}
+.collaboration-wrapper{
+    padding: 50px;
+    background-color:#ECECFE;
+    border-radius: 20px;
+}
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+   
+}
+.my-min{
+    padding: 10px 60px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.Fair{
+    background-color: #00E5FF;
+}
+.clr{
+    color: #FFFFFF;
+}
+.more{
+    color: #FFFFFF;
+}
+.simple-wrapper > div > div{
+    background-color: #fff;
+}
+.raw{
+    background-color: var(--primary-color);
+}
+.raw p{
+    color: #fff;
+}
+
